@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 
-import styles from '@/pages/index.module.css'
+import styles from '@/pages/index.module.css';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome, I love Bridget! She's the best girlfriend!
+          Welcome, I love Bridget! She's the best wife!
         </h1>
       </main>
 
@@ -30,5 +30,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
